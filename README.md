@@ -27,5 +27,7 @@ echo "restore dotnet nuget"
 cd /workspace/YOUR_REPO_NAME && dotnet restore
 
 # Install Docker (using convenience script)
-curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && rm get-docker.sh
+# not possible at 25/June25:
+#  https://community.openai.com/t/codex-docker-in-docker-in-environment-setup/1272369
+# curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh && rm get-docker.sh
 ```
